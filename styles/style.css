@@ -1,0 +1,132 @@
+/* google font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header style */
+
+header{
+    width: 100%;
+    height: 600px;
+    background-color: #2D25A0;
+    color: white;
+
+}
+
+.header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.header-details{
+    
+    padding-top: 50px;
+    margin-left: 120px;
+    
+    
+}
+.header-details h3{
+    font-size: 64px;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    font-weight: 700;
+}
+.header-photo img{
+    width: 556px;
+    height: 438px;
+    margin-top: 50px;
+    margin-right: 130px;
+    margin-bottom: 60px;
+}
+.photo{
+    transition: transform 1s ease-in-out;
+
+}
+
+.header-photo:hover .photo{
+    transform: rotate(60deg);
+}
+
+
+
+/* top players style */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 85px;
+   
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 500px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 30px lightgray;
+   
+
+}
+
+ .player-name img{
+    width: 300px;
+    height: 256px;
+    padding: 10px;
+    
+}
+.player-titel{
+    font-size: 28px;
+    padding-left: 15px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.player-info{
+    font-size: 16px;
+    width: 300px;
+    height: 240px;
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 10px;
+
+}
+
+
+/* footer styles */
+
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ .social-icon .fab{
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
