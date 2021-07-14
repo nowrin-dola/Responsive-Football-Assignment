@@ -30,7 +30,7 @@ header{
         margin-bottom: 27px;
         
       }
-      .flexible{
+      .header-section{
          max-width: 1440px;
           height: 677px;
           display: flex;
@@ -68,7 +68,7 @@ header{
         .transformer:hover{
             width: 300px;
             height: 300px;
-            transform: rotate(10deg) ;
+            transform: rotate(60deg) ;
     }
       
 
@@ -267,7 +267,7 @@ form {
    .half-width{
      margin: 0;
    }
-   .flexible {
+   .header-section {
      width: 360px;
      height: 695px;
      display: flex;
